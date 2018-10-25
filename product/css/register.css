@@ -1,0 +1,64 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.main{
+  width:990px;
+  height:809px;
+  
+  margin:0 auto;
+}
+.header{
+  width:990px;
+  height:115px;
+  
+  border-top:1px solid white;
+}
+.H_logo{
+  margin-top:44px;
+}
+.main_body{
+  width:988px;
+  height:552px;
+  padding:50px 0px 50px 0px;
+  
+  text-align:center;
+  float:right;
+  margin:0 auto;
+}
+.h6{
+  font-size:30px;
+  margin-bottom:30px;
+}
+.B_reg1,.B_reg2,.B_reg3,.B_reg4,.B_reg5{
+  width:338px;
+  height:40px;
+  padding-left:2px;
+ 
+}
+.B_reg_p{
+  margin:15px 0px 15px 0px;
+}
+.B_reg_button{
+  width:340px;
+  height:38px;
+  color:white;
+  background-color:rgb(179,36,36);
+  outline:none;
+  border-top:1px solid white;
+  
+}
+.B_reg_footer{
+  width:338px;
+  height:58px;
+  position:absolute;
+  
+  margin:20px 330px 0px 328px;
+  text-align:center;
+  font-size:12px;
+  color:gray;
+}
+.B_reg_footer a{
+  text-decoration:none;
+  color:black;
+}

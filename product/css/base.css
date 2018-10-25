@@ -1,0 +1,17 @@
+/*引入网页头部和底部的样式*/
+.my_header{
+    width:100%;
+    height: 16rem;
+}
+.my_footer{
+    width: 100%;
+    height:60rem
+}
+/*万表红色*/
+.wb-red{
+    color:#cc5252;
+}
+/*万表背景红*/
+.wb-bg-red{
+    background-color:#cc5252;
+}

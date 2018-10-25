@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding:0;
+}
+.Himg{
+  position:relative;
+  width:100%;
+  height:100px;
+  margin-top:10px;
+  
+}
+.h6{
+  width:1000px;
+  height:75px;
+  position:relative;
+  margin-left:211.5px;
+}
+.h6 img{
+  margin-top:5px;
+}
+.Bimg{
+  width:100%;
+  height:580px;
+  position: relative;
+  background:url(../img/bg-login.jpg) no-repeat;
+  background-size:100% 100%;
+}
+.Bimg_login{
+  width:380px;
+  height:460px;
+  position:absolute;
+  top:50px;
+  right:200px;
+  background:white;
+}
+.Bimg_tap{
+  width:269px;
+  height:86px;
+  display:inline-block;
+  margin-left:55.5px;
+ 
+}
+.Bimg_tap_on,.Bimg_tap_san{
+  width:134px;
+  height:26px;
+  display:inline-block;
+  margin-top:40px;
+  font-size:26px;
+  text-align:center;
+  color:#cc5252;
+  float:left;
+}
+
+.B_login{
+  width:380px;
+  height:209px;
+  
+}
+.B_login_member{
+  width:300px;
+  height:209px;
+  margin:0 auto;
+  
+}
+.B_login_uname{
+  width:300px;
+  height:64px;
+  
+  border-top:1px solid white;
+}
+.B_login_upwd{
+  width:300px;
+  height:56px;
+  
+  border-top:1px solid white;
+}
+#uname,#upwd{
+  width:280px;
+  height:44px;
+  display:block;
+  margin:5px;
+}
+#login{
+  width:300px;
+  height:44px;
+  font-size:18px;
+  background-color:#cc5252;
+  color:white;
+  text-align:center;
+  margin:10px 0 10px 0;
+  outline:none;
+}
+.B_free{
+  width:300px;
+  height:21px;
+  display:block;
+  margin:0 auto;
+  
+}
+#f1{
+  text-decoration:none;
+  color:gray;
+}
+
+.B_chance{
+  width:153px;
+  height:33px;
+  display:block;
+  margin:120px 40px 15px 180px;
+}
+.B_chance_vx,.B_chance_qq{
+  height:33px;
+  width:75px;
+  text-align:center;
+  text-decoration:none;
+  color:gray;
+}
+#footer .Foot_msg{
+  width:640px;
+  height:161px;
+  margin:0 auto;
+
+  overflow:auto;
+}
+.d1,.d2,.d3{
+  width:640px;
+  height:20px;
+  display:block;
+  border-top:1px white solid;
+  text-align:center;
+  color:gray;
+  line-height:20px;
+  font-size:12px;
+}
+.d1{
+  margin-top:50px;
+}

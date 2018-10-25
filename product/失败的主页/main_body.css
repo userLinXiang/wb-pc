@@ -1,0 +1,87 @@
+
+.w_pt_main{
+    height:460px;
+    background-image:url(../img/lunbo2.jpg);
+    position:relative;
+    background-position:-240px 0;
+}
+.w_pt_main .w_main_all{
+    width:202px;
+    height:460px;
+    position:absolute;
+    top:0;
+    left:120px;
+    background:#fff;
+    opacity:0.85;
+}
+.menu_box{
+    height:57.5px;
+    width:200px;
+    position: relative;
+}
+.menu_box a{
+    font-size:12px;
+    line-height:57.5px;
+    text-decoration:none;
+    color:#333;
+    padding:0 2px;
+}
+.w_menu_i{
+    width:4px;
+    height:100%;
+    background: white;
+    content:"";
+    float:left;
+}
+.first_a{
+    font-weight: 800;
+    margin-left:4px;
+}
+.menu_box:hover .w_menu_i{
+   background: #ccaa7a;
+}
+.w_pt_left{
+    position:absolute;
+    width:36px;
+    height:60px;
+    top:200px;
+    left:322px;
+    background:rgba(0,0,0,0.05) url(../img/arrow-left.png) no-repeat !important;
+    background-position:center center;
+    border-radius:0 4px 4px 0;
+    cursor: pointer;
+
+}
+.w_pt_right{
+    position:absolute;
+    top:200px;
+    right:100px;
+    width:36px;
+    height:60px;
+    background:rgba(0,0,0,0.05) url(../img/arrow-right.png) no-repeat;
+    background-position: center center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.w_pt_footer{
+    width:164px;
+    height:14px;
+    position:absolute;
+    bottom:20px;
+    left:400px;
+}
+.w_pt_f1{
+    list-style: none;
+}
+.w_pt_f1 li{
+    height:6px;
+    width:6px;
+    border-radius: 50%;
+    float:left;
+    border:2px solid #ddd;
+    margin-left:6px;
+}
+.w_pt_l1{
+    background: #fff;
+}
+

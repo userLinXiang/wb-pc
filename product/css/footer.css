@@ -1,0 +1,49 @@
+.my_color{
+    color:#ccaa7a;
+}
+.my_phone_color{
+    color:#999;
+}
+.my_bgcolor{
+    background: #333;
+}
+.my_small{
+    font-size:0.9rem;
+}
+.my_btn{
+    width:132px !important;
+    height:36px !important;
+    line-height: 36px !important;
+    display: block;
+    text-align: center;
+    border:1px solid #999;
+    border-radius:100px;
+    font-size:12px;
+}
+.my_btn:hover{
+    background:#ccaa7a;
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.my_li_color{
+    color:#ccc;
+    font-size:1rem !important;
+}
+.my_list_a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.my_foot_hover:hover{
+    color:#fff;
+    text-decoration: none;
+ }
+.my_footer_end_color{
+    color:#666;
+}
+.my_footend_bgcolor{
+    background: #eee;
+}
+.my_footend_hover:hover{
+    color:#ccc;
+    text-decoration: none;
+}
