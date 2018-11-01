@@ -136,3 +136,200 @@
       display: block;
       clear: both;
   }
+  .tabbar{
+    width:100%;
+    height:44px;
+    background: #434343;
+  }
+  .tabbar-body{
+    width:1200px;
+    height:44px;
+    line-height:44px;
+    margin:0 auto;
+    position: relative;
+  }
+  .tabbar-body ul{
+    list-style: none;
+    width:800px;
+    display: flex;
+    justify-content: space-around
+  }
+  .tabbar-body li a{
+    display: inline-block;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ccc;
+    text-decoration: none;
+    /* float: left;
+    margin:0 5px; */
+  }
+  .tabbar-body li a:hover{
+    font-weight:800;
+    border-bottom:3px solid #fff;
+  }
+  .tabbar-body .tabbar-right{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 117px;
+    height: 44px;
+    line-height: 44px;
+    background-color: rgba(51,51,51,.6);
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .tabbar-body .tabbar-right .icon{
+    margin: 15px 10px 9px 17px;
+    display: inline-block;
+    background:url(../img/details_logo2.png) no-repeat;
+    background-position: -190px -306px;
+    background-size: 433px;
+    width: 18px;
+    height: 17px;
+  }
+  .tabbar-body .tabbar-right .txt{
+    float:right;
+    margin-right:15px;
+  }
+  .nav-tabbar{
+    width:100%;
+    height:36px;
+    background-image: url(../img/W_detail_Bread.png);
+    background-repeat: repeat-x;
+    position: relative;
+  }
+  .nav-tabbar .nav-tabbar-left{
+    font-size: 12px;
+    color: #666;
+    line-height: 36px;
+    position: absolute;
+    top:0;
+    left:150px;
+  }
+  .nav-tabbar .nav-tabbar-left a{
+    text-decoration: none;
+    color:#666;
+    display: inline-block;
+    margin-right:5px; 
+  }
+  .nav-tabbar .nav-tabbar-right{
+    position:absolute;
+    top:0;
+    right:120px;
+    font-size: 12px;
+    color: #666;
+    line-height: 36px;
+  }
+  .nav-tabbar .nav-tabbar-right .s1{
+    border: 1px solid #cc9952;
+    border-radius: 100px;
+    color: #cc9952;
+    padding: 0 7px;
+    line-height: 18px;
+    font-size:12px;
+  }
+  .nav-tabbar .nav-tabbar-right .s2 a,.nav-tabbar .nav-tabbar-right .s4 a{
+    text-decoration: none;
+    color: #666;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-left:2px;
+  } 
+  .nav-tabbar .nav-tabbar-right .s3{
+    display: inline-block;
+    margin:0 3px;
+  }
+  .details-Main{
+    width:100%;
+    height:10000px;
+    margin-top:20px;
+  }
+  .details-Main .main{
+    width:1200px;
+    height:9000px;
+    margin:0 auto;
+  }
+  .details-Main .main .main-head{
+    width:100%;
+    height:627px;
+  }
+  .details-Main .main .main-head .head-left{
+    float:left;
+    width:500px;
+    height:100%;
+  }
+  .details-Main .main .main-head .head-right{
+    float:left;
+    width:670px;
+    height:100%;
+  }
+  .details-Main .main .main-head .head-left .md-img{
+    position: relative;
+    background-color: #fff;
+    width:480px;
+    height:480px;
+    padding: 9px;
+    border:1px solid #ccc; 
+  }
+  .details-Main .main .main-head .head-left .md-img img{
+    width:480px;
+    height:480px;
+  }
+  .details-Main .main .main-head .head-left .sm-img{
+    margin-top:30px;
+    width:500px;
+    height:80px;
+    position: relative;
+  }
+  .details-Main .main .main-head .head-left .sm-img .s-left,.details-Main .main .main-head .head-left .sm-img .s-right{
+    width:20px;
+    height:21px;
+    margin-top:29px;
+  }
+  .details-Main .main .main-head .head-left .sm-img .s-left{
+    position: absolute;
+    top:0;
+    left:0;
+  }
+  .details-Main .main .main-head .head-left .sm-img .s-right{
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  .details-Main .main .main-head .head-left .sm-img .x-img{
+    width: 64px;
+    height: 64px;
+    padding: 7px;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(20,20,20,.4);
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+    top:0;
+    left:20px;
+  }
+  .details-Main .main .main-head .head-left .sm-img .x-img img{
+    width:100%;
+    height:100%;
+  }
+  .details-Main .main .main-head .head-left .left-foot{
+    margin-top:20px;
+    margin-left:2px;
+    width:498px;
+    height:12px;
+    line-height:12px;
+  }
+  .details-Main .main .main-head .head-left .left-foot a{
+    font-size: 12px;
+    color: #477db3;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  .details-Main .main .main-head .head-left .left-foot span{
+    display: inline-block;
+    margin:0 3px;
+    color:#ccc;
+  }
