@@ -11,7 +11,7 @@ $(function(){
         data:{kw,pno},
         dataType:"json",
         success: function(res) {
-            //console.log(res); 此时可以得到模糊查询的数据了 解构遍历
+           // console.log(res); 此时可以得到模糊查询的数据了 解构遍历
             var {data,pageCount,pno}=res;
             var html="";
             for(var p of data){
@@ -26,8 +26,7 @@ $(function(){
                           ${title}
                         </a>
                         <div class="txt3">
-                          <span class="s1">${shelf_time}</span>
-                          <i>/</i>
+                          
                           <span class="s2">销量${sold_count}</span>
                         </div>
                         <a href="#" class="txt4">天梭旗舰店</a>
@@ -42,8 +41,33 @@ $(function(){
             </li>`
             }
             $(".goods-body").children("ul.clearfix").html(html);
+            var html=`<div class="prev prev-icon"></div>`;
+            for(var i=0;i<pageCount;i++){
+                html+=`<div class="number ${i==pno?'active':''}">${i+1}</div>`
+            }
+            html+=`<div class="next next-icon"></div>`;
+            $(".list").html(html);
+            //pno=1;
+            if(pno==0){
+                $(".prev").addClass("disabled")
+            }
+            if(pno==pageCount-1){
+                $(".next").addClass("disabled")
+            }
         }
     })
 }
 loadPage();
+//绑定冒泡分页
+$(".goods-body .list").on("click","div",function(){
+    var $n=$(this);
+    var i=$(".list>div.active").html()-1;
+    if($n.is(":first-child")){
+        loadPage(i-1)
+    }else if($n.is(":last-child")){
+        loadPage(i+1)
+    }else{
+        loadPage($n.html()-1);
+    }
+})
 })
